@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* head {
+    width: 100%;
+} */
+
+.topthing {
+    font-family: 'Bangers', cursive;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    line-height:80px;
+}
+
+.topthing img {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.aboutfooter {
+    padding: 60px;
+    text-align: center;
+    background: #ff7b00;
+    color: white;
+    font-size: 40px; 
+}
+
+.detailsfooter {
+    padding: 30px;
+    text-align: center;
+    background: #636363;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+  
+/* .page{
+    padding: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    font-size: 30px;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 100%;
+} */
+
+
+h1 {
+    font-family: 'Bangers', cursive;;
+}

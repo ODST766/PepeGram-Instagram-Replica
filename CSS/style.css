@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html,body { 
+    height:100%; 
+    /*background-color: black;*/
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.cardActive {
+    transition: 0.5s;
+}
+
+.cardActive:hover {
+    box-shadow: 0px 0px 40px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.activeBtn {
+    border-bottom: 2px solid black;
+}
+
+.btn {
+    padding:15px;
+}
+
+.header {
+    font-family: 'Bangers', cursive;
+    padding: 30px;
+    text-align: center;
+    background: #bc1a86;
+    color: white;
+    font-size: 40px;
+    border: 10px solid #33CCFF;
+}
+
+footer {
+    padding: 60px;
+    text-align: center;
+    background: #bc1a86;
+    color: white;
+    font-size: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 10px solid #33CCFF;
+}
+  
+.page{
+    padding: 60px;
+    text-align: center;
+    background-color: #BC1A86;
+    color: white;
+    font-size: 30px;
+    border: 10px solid #33CCFF;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    width: 180px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    width: 180px;
+    margin: 5px;
+    border: 2px solid black;
+    outline: none;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
